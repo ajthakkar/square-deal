@@ -1,0 +1,330 @@
+{
+  "test_sales": 9173,
+  "estimated": 9173,
+  "check_half": 4640,
+  "comps_sales": 31353,
+  "screen": {
+    "pending_2026_deed_screened": 11159,
+    "validity_model_auc_2025": 0.7922,
+    "share_valid_2025_deed_screened": 0.7095,
+    "share_valid_2025_after_screen": 0.8162,
+    "share_kept_2025": 0.8375,
+    "pending_2026_kept": 9236
+  },
+  "blend_on_comps": 0.5,
+  "blend_cod_2025": {
+    "0.0": 6.73,
+    "0.25": 6.48,
+    "0.5": 6.36,
+    "0.75": 6.4,
+    "1.0": 6.59
+  },
+  "model": {
+    "sales": 30813,
+    "neighborhoods": 1061,
+    "resid_sd": 0.1001,
+    "coefficients": {
+      "log_sqft": 0.3728,
+      "eff_age": -0.0102,
+      "eff_age_sq": 0.0002,
+      "grade": 0.1713,
+      "condition": 0.0803,
+      "baths": 0.0628,
+      "beds": 0.0042,
+      "basement": 0.0515,
+      "fin_basement": 0.0097,
+      "log_acres": 0.0785,
+      "two_story": -0.021,
+      "central_air": 0.1287,
+      "ranch": 0.0131,
+      "cape_cod": -0.0258,
+      "multi_level": 0.0315,
+      "bi_level": 0.0224,
+      "old_style": 0.0018
+    }
+  },
+  "accuracy": {
+    "cod_county": 10.18,
+    "cod_square_deal": 9.3,
+    "median_abs_error_county": 0.0887,
+    "median_abs_error_square_deal": 0.0816,
+    "price_drift_since_valuation_date": 1.0461
+  },
+  "likely_range": {
+    "target": 0.8,
+    "coverage_check_half": 0.7963,
+    "coverage_if_calibrated_on_2025_sales": 0.6337,
+    "table": [
+      {
+        "spread_lo": 0.0,
+        "spread_hi": 0.0477,
+        "q_lo": -0.1322,
+        "q_hi": 0.1151,
+        "n": 1133
+      },
+      {
+        "spread_lo": 0.0477,
+        "spread_hi": 0.0683,
+        "q_lo": -0.1672,
+        "q_hi": 0.1364,
+        "n": 1133
+      },
+      {
+        "spread_lo": 0.0683,
+        "spread_hi": 0.1009,
+        "q_lo": -0.1912,
+        "q_hi": 0.1797,
+        "n": 1133
+      },
+      {
+        "spread_lo": 0.1009,
+        "spread_hi": null,
+        "q_lo": -0.2254,
+        "q_hi": 0.2963,
+        "n": 1134
+      }
+    ]
+  },
+  "base_rate_check_half": {
+    "sold_below_county_value": 0.1502,
+    "sold_10pct_below": 0.0636
+  },
+  "by_verdict_check_half": {
+    "likely_high": {
+      "n": 89,
+      "share_of_sales": 0.0192,
+      "sold_below_county_value": 0.5169,
+      "sold_below_ci": [
+        0.4145,
+        0.6178
+      ],
+      "sold_10pct_below": 0.2584,
+      "sold_10pct_below_ci": [
+        0.1788,
+        0.358
+      ]
+    },
+    "closer_look": {
+      "n": 283,
+      "share_of_sales": 0.061,
+      "sold_below_county_value": 0.3286,
+      "sold_below_ci": [
+        0.2765,
+        0.3853
+      ],
+      "sold_10pct_below": 0.1378,
+      "sold_10pct_below_ci": [
+        0.1025,
+        0.1828
+      ]
+    },
+    "in_line": {
+      "n": 2851,
+      "share_of_sales": 0.6144,
+      "sold_below_county_value": 0.162,
+      "sold_below_ci": [
+        0.149,
+        0.176
+      ],
+      "sold_10pct_below": 0.0666,
+      "sold_10pct_below_ci": [
+        0.0581,
+        0.0764
+      ]
+    },
+    "low": {
+      "n": 1417,
+      "share_of_sales": 0.3054,
+      "sold_below_county_value": 0.0677,
+      "sold_below_ci": [
+        0.0558,
+        0.082
+      ],
+      "sold_10pct_below": 0.0303,
+      "sold_10pct_below_ci": [
+        0.0226,
+        0.0406
+      ]
+    }
+  },
+  "chance_calibration_check_half": [
+    {
+      "from": 0,
+      "to": 0.1,
+      "n": 1417,
+      "predicted": 0.0692,
+      "observed": 0.0677
+    },
+    {
+      "from": 0.1,
+      "to": 0.2,
+      "n": 2229,
+      "predicted": 0.1415,
+      "observed": 0.1391
+    },
+    {
+      "from": 0.2,
+      "to": 0.3,
+      "n": 690,
+      "predicted": 0.2388,
+      "observed": 0.2594
+    },
+    {
+      "from": 0.3,
+      "to": 0.4,
+      "n": 206,
+      "predicted": 0.3416,
+      "observed": 0.3058
+    },
+    {
+      "from": 0.4,
+      "to": 0.5,
+      "n": 69,
+      "predicted": 0.4466,
+      "observed": 0.5217
+    },
+    {
+      "from": 0.5,
+      "to": 0.6,
+      "n": 18,
+      "predicted": 0.5511,
+      "observed": 0.3889
+    },
+    {
+      "from": 0.6,
+      "to": 1.0,
+      "n": 11,
+      "predicted": 0.6832,
+      "observed": 0.5455
+    }
+  ],
+  "verdicts_by_price_tier_check_half": [
+    {
+      "county_value_from": 0,
+      "county_value_to": 150000.0,
+      "n": 361,
+      "base_sold_below": 0.1911,
+      "likely_high": 0.0332,
+      "closer_look": 0.0139,
+      "in_line": 0.6759,
+      "low": 0.277
+    },
+    {
+      "county_value_from": 150000.0,
+      "county_value_to": 250000.0,
+      "n": 1161,
+      "base_sold_below": 0.1748,
+      "likely_high": 0.0267,
+      "closer_look": 0.0637,
+      "in_line": 0.7071,
+      "low": 0.2024
+    },
+    {
+      "county_value_from": 250000.0,
+      "county_value_to": 400000.0,
+      "n": 1791,
+      "base_sold_below": 0.1318,
+      "likely_high": 0.014,
+      "closer_look": 0.0698,
+      "in_line": 0.6387,
+      "low": 0.2775
+    },
+    {
+      "county_value_from": 400000.0,
+      "county_value_to": 600000.0,
+      "n": 905,
+      "base_sold_below": 0.1436,
+      "likely_high": 0.0099,
+      "closer_look": 0.0575,
+      "in_line": 0.5249,
+      "low": 0.4077
+    },
+    {
+      "county_value_from": 600000.0,
+      "county_value_to": 1000000.0,
+      "n": 355,
+      "base_sold_below": 0.1352,
+      "likely_high": 0.0197,
+      "closer_look": 0.0563,
+      "in_line": 0.4,
+      "low": 0.5239
+    },
+    {
+      "county_value_from": 1000000.0,
+      "county_value_to": null,
+      "n": 67,
+      "base_sold_below": 0.1642,
+      "likely_high": 0.0746,
+      "closer_look": 0.1045,
+      "in_line": 0.3731,
+      "low": 0.4478
+    }
+  ],
+  "chance_coefficients_calibration_half": [
+    -1.2528,
+    8.7129,
+    2.8712,
+    1.0889,
+    -0.6233,
+    -15.0241,
+    1.1362
+  ],
+  "first_version_range_verdicts_check_half": {
+    "likely_high": {
+      "n": 18,
+      "share_of_sales": 0.0039,
+      "sold_below_county_value": 0.2778,
+      "sold_below_ci": [
+        0.125,
+        0.5087
+      ],
+      "sold_10pct_below": 0.0556,
+      "sold_10pct_below_ci": [
+        0.0099,
+        0.2576
+      ]
+    },
+    "closer_look": {
+      "n": 517,
+      "share_of_sales": 0.1114,
+      "sold_below_county_value": 0.3211,
+      "sold_below_ci": [
+        0.2823,
+        0.3625
+      ],
+      "sold_10pct_below": 0.1296,
+      "sold_10pct_below_ci": [
+        0.1034,
+        0.1613
+      ]
+    },
+    "in_line": {
+      "n": 3246,
+      "share_of_sales": 0.6996,
+      "sold_below_county_value": 0.1429,
+      "sold_below_ci": [
+        0.1313,
+        0.1554
+      ],
+      "sold_10pct_below": 0.0601,
+      "sold_10pct_below_ci": [
+        0.0524,
+        0.0688
+      ]
+    },
+    "low": {
+      "n": 859,
+      "share_of_sales": 0.1851,
+      "sold_below_county_value": 0.0722,
+      "sold_below_ci": [
+        0.0567,
+        0.0915
+      ],
+      "sold_10pct_below": 0.0373,
+      "sold_10pct_below_ci": [
+        0.0265,
+        0.0521
+      ]
+    }
+  }
+}

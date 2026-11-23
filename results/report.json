@@ -1,0 +1,551 @@
+{
+  "homes": 303087,
+  "value_change_2025_to_2026": {
+    "median": 0.1071,
+    "p10": 0.0388,
+    "p90": 0.194,
+    "share_over_20pct": 0.0887,
+    "by_school_district": {
+      "Madison Plains Lsd": 0.2225,
+      "Grandview Heights Csd": 0.1865,
+      "Jonathan Alder Lsd": 0.1758,
+      "Bexley Csd": 0.1536,
+      "Westerville Csd": 0.1332,
+      "Upper Arlington Csd": 0.1262,
+      "Reynoldsburg Csd": 0.124,
+      "Hilliard Csd": 0.1189,
+      "New Albany-Plain Lsd": 0.1168,
+      "Whitehall Csd": 0.112,
+      "Olentangy Lsd": 0.1105,
+      "Dublin Csd": 0.1095,
+      "Columbus Csd": 0.1047,
+      "South Western Csd": 0.1006,
+      "Gahanna Jefferson Csd": 0.1001,
+      "Worthington Csd": 0.0926,
+      "Groveport-Madison Lsd": 0.0794,
+      "Hamilton Lsd": 0.076,
+      "Canal Winchester Lsd": 0.0755,
+      "Licking Heights Lsd": 0.0466,
+      "Pickerington Lsd": 0.037,
+      "Teays Valley Lsd": 0.0
+    }
+  },
+  "in_sample_2025": {
+    "n": 9620,
+    "trimmed": 140,
+    "median": {
+      "value": 0.9062,
+      "lo": 0.9048,
+      "hi": 0.9076,
+      "meets_standard": true
+    },
+    "cod": {
+      "value": 6.1675,
+      "lo": 6.0702,
+      "hi": 6.2663,
+      "meets_standard": true
+    },
+    "prd": {
+      "value": 1.002,
+      "lo": 1.001,
+      "hi": 1.003,
+      "meets_standard": true
+    },
+    "prb": {
+      "value": 0.0054,
+      "lo": 0.0026,
+      "hi": 0.008,
+      "meets_standard": true
+    }
+  },
+  "new_sales_2026": {
+    "n": 8558,
+    "trimmed": 615,
+    "median": {
+      "value": 0.8648,
+      "lo": 0.8622,
+      "hi": 0.8676,
+      "meets_standard": null
+    },
+    "cod": {
+      "value": 10.1829,
+      "lo": 10.0179,
+      "hi": 10.3454,
+      "meets_standard": true
+    },
+    "prd": {
+      "value": 1.0095,
+      "lo": 1.0076,
+      "hi": 1.0116,
+      "meets_standard": true
+    },
+    "prb": {
+      "value": 0.006,
+      "lo": 0.001,
+      "hi": 0.0108,
+      "meets_standard": true
+    },
+    "note": "Sale prices are not restated to the January 1, 2026 valuation date."
+  },
+  "new_sales_share_below_value": 0.152,
+  "new_sales_share_10pct_below": 0.0676,
+  "deciles_2026": {
+    "price": [
+      {
+        "decile": 1,
+        "n": 829,
+        "median_price": 180000.0,
+        "median_ratio": 0.8895
+      },
+      {
+        "decile": 2,
+        "n": 881,
+        "median_price": 233000.0,
+        "median_ratio": 0.8471
+      },
+      {
+        "decile": 3,
+        "n": 858,
+        "median_price": 275000.0,
+        "median_ratio": 0.8636
+      },
+      {
+        "decile": 4,
+        "n": 836,
+        "median_price": 309900.0,
+        "median_ratio": 0.8654
+      },
+      {
+        "decile": 5,
+        "n": 805,
+        "median_price": 339607.0,
+        "median_ratio": 0.8815
+      },
+      {
+        "decile": 6,
+        "n": 915,
+        "median_price": 375000.0,
+        "median_ratio": 0.8712
+      },
+      {
+        "decile": 7,
+        "n": 865,
+        "median_price": 420000.0,
+        "median_ratio": 0.8807
+      },
+      {
+        "decile": 8,
+        "n": 823,
+        "median_price": 480000.0,
+        "median_ratio": 0.8651
+      },
+      {
+        "decile": 9,
+        "n": 884,
+        "median_price": 585000.0,
+        "median_ratio": 0.8514
+      },
+      {
+        "decile": 10,
+        "n": 862,
+        "median_price": 825000.0,
+        "median_ratio": 0.8199
+      }
+    ],
+    "value": [
+      {
+        "decile": 1,
+        "n": 856,
+        "median_price": 187700.0,
+        "median_ratio": 0.7604
+      },
+      {
+        "decile": 2,
+        "n": 856,
+        "median_price": 235000.0,
+        "median_ratio": 0.8344
+      },
+      {
+        "decile": 3,
+        "n": 854,
+        "median_price": 279949.5,
+        "median_ratio": 0.8414
+      },
+      {
+        "decile": 4,
+        "n": 857,
+        "median_price": 310000.0,
+        "median_ratio": 0.8622
+      },
+      {
+        "decile": 5,
+        "n": 856,
+        "median_price": 340000.0,
+        "median_ratio": 0.8804
+      },
+      {
+        "decile": 6,
+        "n": 856,
+        "median_price": 375000.0,
+        "median_ratio": 0.8879
+      },
+      {
+        "decile": 7,
+        "n": 855,
+        "median_price": 419000.0,
+        "median_ratio": 0.8865
+      },
+      {
+        "decile": 8,
+        "n": 855,
+        "median_price": 479000.0,
+        "median_ratio": 0.8812
+      },
+      {
+        "decile": 9,
+        "n": 857,
+        "median_price": 580500.0,
+        "median_ratio": 0.8772
+      },
+      {
+        "decile": 10,
+        "n": 856,
+        "median_price": 820000.0,
+        "median_ratio": 0.8691
+      }
+    ],
+    "proxy": [
+      {
+        "decile": 1,
+        "n": 856,
+        "median_price": 180000.0,
+        "median_ratio": 0.819
+      },
+      {
+        "decile": 2,
+        "n": 856,
+        "median_price": 235000.0,
+        "median_ratio": 0.8379
+      },
+      {
+        "decile": 3,
+        "n": 856,
+        "median_price": 276000.0,
+        "median_ratio": 0.8512
+      },
+      {
+        "decile": 4,
+        "n": 855,
+        "median_price": 310000.0,
+        "median_ratio": 0.8642
+      },
+      {
+        "decile": 5,
+        "n": 856,
+        "median_price": 340000.0,
+        "median_ratio": 0.881
+      },
+      {
+        "decile": 6,
+        "n": 856,
+        "median_price": 375000.0,
+        "median_ratio": 0.881
+      },
+      {
+        "decile": 7,
+        "n": 855,
+        "median_price": 420000.0,
+        "median_ratio": 0.8832
+      },
+      {
+        "decile": 8,
+        "n": 856,
+        "median_price": 482000.0,
+        "median_ratio": 0.8739
+      },
+      {
+        "decile": 9,
+        "n": 856,
+        "median_price": 589900.0,
+        "median_ratio": 0.8624
+      },
+      {
+        "decile": 10,
+        "n": 856,
+        "median_price": 825000.0,
+        "median_ratio": 0.8437
+      }
+    ]
+  },
+  "school_districts_2026": [
+    {
+      "school_district": "Licking Heights Lsd",
+      "sales": 132,
+      "median": {
+        "value": 0.8925,
+        "lo": 0.877,
+        "hi": 0.9058,
+        "meets_standard": false
+      },
+      "cod": {
+        "value": 6.486,
+        "lo": 5.7008,
+        "hi": 7.24,
+        "meets_standard": true
+      }
+    },
+    {
+      "school_district": "Canal Winchester Lsd",
+      "sales": 175,
+      "median": {
+        "value": 0.8919,
+        "lo": 0.8819,
+        "hi": 0.9062,
+        "meets_standard": false
+      },
+      "cod": {
+        "value": 8.8268,
+        "lo": 7.895,
+        "hi": 9.7663,
+        "meets_standard": true
+      }
+    },
+    {
+      "school_district": "Hamilton Lsd",
+      "sales": 121,
+      "median": {
+        "value": 0.8884,
+        "lo": 0.8724,
+        "hi": 0.9029,
+        "meets_standard": false
+      },
+      "cod": {
+        "value": 9.7925,
+        "lo": 8.4596,
+        "hi": 11.2328,
+        "meets_standard": true
+      }
+    },
+    {
+      "school_district": "Reynoldsburg Csd",
+      "sales": 255,
+      "median": {
+        "value": 0.8862,
+        "lo": 0.8774,
+        "hi": 0.9012,
+        "meets_standard": false
+      },
+      "cod": {
+        "value": 8.8553,
+        "lo": 8.0739,
+        "hi": 9.7253,
+        "meets_standard": true
+      }
+    },
+    {
+      "school_district": "Hilliard Csd",
+      "sales": 761,
+      "median": {
+        "value": 0.8777,
+        "lo": 0.8687,
+        "hi": 0.8843,
+        "meets_standard": false
+      },
+      "cod": {
+        "value": 7.8136,
+        "lo": 7.38,
+        "hi": 8.2597,
+        "meets_standard": true
+      }
+    },
+    {
+      "school_district": "Gahanna Jefferson Csd",
+      "sales": 412,
+      "median": {
+        "value": 0.8712,
+        "lo": 0.8585,
+        "hi": 0.8797,
+        "meets_standard": false
+      },
+      "cod": {
+        "value": 7.3686,
+        "lo": 6.8404,
+        "hi": 7.9522,
+        "meets_standard": true
+      }
+    },
+    {
+      "school_district": "South Western Csd",
+      "sales": 1099,
+      "median": {
+        "value": 0.87,
+        "lo": 0.8626,
+        "hi": 0.8763,
+        "meets_standard": false
+      },
+      "cod": {
+        "value": 8.2428,
+        "lo": 7.8656,
+        "hi": 8.632,
+        "meets_standard": true
+      }
+    },
+    {
+      "school_district": "Westerville Csd",
+      "sales": 590,
+      "median": {
+        "value": 0.8686,
+        "lo": 0.8606,
+        "hi": 0.8808,
+        "meets_standard": false
+      },
+      "cod": {
+        "value": 9.4285,
+        "lo": 8.8693,
+        "hi": 10.0067,
+        "meets_standard": true
+      }
+    },
+    {
+      "school_district": "Dublin Csd",
+      "sales": 357,
+      "median": {
+        "value": 0.8602,
+        "lo": 0.8513,
+        "hi": 0.8733,
+        "meets_standard": false
+      },
+      "cod": {
+        "value": 8.435,
+        "lo": 7.6949,
+        "hi": 9.0803,
+        "meets_standard": true
+      }
+    },
+    {
+      "school_district": "Columbus Csd",
+      "sales": 3239,
+      "median": {
+        "value": 0.8561,
+        "lo": 0.8513,
+        "hi": 0.8614,
+        "meets_standard": false
+      },
+      "cod": {
+        "value": 13.326,
+        "lo": 12.9487,
+        "hi": 13.7511,
+        "meets_standard": true
+      }
+    },
+    {
+      "school_district": "New Albany-Plain Lsd",
+      "sales": 196,
+      "median": {
+        "value": 0.8555,
+        "lo": 0.8402,
+        "hi": 0.8731,
+        "meets_standard": false
+      },
+      "cod": {
+        "value": 8.3313,
+        "lo": 7.4652,
+        "hi": 9.0975,
+        "meets_standard": true
+      }
+    },
+    {
+      "school_district": "Groveport-Madison Lsd",
+      "sales": 330,
+      "median": {
+        "value": 0.8548,
+        "lo": 0.8412,
+        "hi": 0.8747,
+        "meets_standard": false
+      },
+      "cod": {
+        "value": 10.7782,
+        "lo": 9.9235,
+        "hi": 11.6456,
+        "meets_standard": true
+      }
+    },
+    {
+      "school_district": "Worthington Csd",
+      "sales": 417,
+      "median": {
+        "value": 0.8488,
+        "lo": 0.8388,
+        "hi": 0.8584,
+        "meets_standard": false
+      },
+      "cod": {
+        "value": 8.6703,
+        "lo": 8.0233,
+        "hi": 9.3682,
+        "meets_standard": true
+      }
+    },
+    {
+      "school_district": "Upper Arlington Csd",
+      "sales": 283,
+      "median": {
+        "value": 0.8398,
+        "lo": 0.82,
+        "hi": 0.8536,
+        "meets_standard": false
+      },
+      "cod": {
+        "value": 12.0843,
+        "lo": 11.043,
+        "hi": 13.1779,
+        "meets_standard": true
+      }
+    },
+    {
+      "school_district": "Bexley Csd",
+      "sales": 126,
+      "median": {
+        "value": 0.8384,
+        "lo": 0.805,
+        "hi": 0.8683,
+        "meets_standard": false
+      },
+      "cod": {
+        "value": 10.925,
+        "lo": 9.578,
+        "hi": 12.0775,
+        "meets_standard": true
+      }
+    }
+  ],
+  "neighborhoods_2026": {
+    "neighborhoods": 115,
+    "min_sales": 20,
+    "relative_median_5_50_95": [
+      0.921,
+      1.001,
+      1.071
+    ],
+    "clearly_above_county_by_5pct": 2,
+    "clearly_below_county_by_5pct": 1
+  },
+  "standards": {
+    "median": [
+      0.9,
+      1.1
+    ],
+    "cod": [
+      5.0,
+      15.0
+    ],
+    "prd": [
+      0.98,
+      1.03
+    ],
+    "prb": [
+      -0.05,
+      0.05
+    ]
+  }
+}

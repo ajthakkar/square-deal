@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+data/raw/
+data/interim/
+site/node_modules/
+site/.next/
+site/out/
+site/public/data/
+site/next-env.d.ts
+site/*.tsbuildinfo

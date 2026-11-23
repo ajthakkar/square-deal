@@ -1,0 +1,131 @@
+@import "tailwindcss";
+
+:root {
+  --paper: #f6f5f1;
+  --card: #ffffff;
+  --ink: #17201c;
+  --copy: #36403b;
+  --muted: #5f6a64;
+  --line: #dcdfd8;
+  --accent: #1f5f4a;
+  --accent-ink: #ffffff;
+  --accent-soft: #e4efe9;
+  --ok: #276b3f;
+  --ok-soft: #e3f1e7;
+  --warn: #8a5a00;
+  --warn-soft: #fbf0d9;
+  --bad: #a33a26;
+  --bad-soft: #f8e4df;
+  --info: #2f5a8a;
+  --info-soft: #e2ebf5;
+  --band: #d5e4dc;
+  --band-strong: #8fb8a3;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #121614;
+    --card: #1a201d;
+    --ink: #eef2ef;
+    --copy: #cfd6d1;
+    --muted: #9aa59f;
+    --line: #2d3531;
+    --accent: #7cc4a4;
+    --accent-ink: #0d1a14;
+    --accent-soft: #1d2f27;
+    --ok: #8fd3a4;
+    --ok-soft: #1c2e22;
+    --warn: #f0c36a;
+    --warn-soft: #33290f;
+    --bad: #f29c88;
+    --bad-soft: #3a211b;
+    --info: #9cc0ea;
+    --info-soft: #1b2635;
+    --band: #23392f;
+    --band-strong: #3f7360;
+  }
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-card: var(--card);
+  --color-ink: var(--ink);
+  --color-copy: var(--copy);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-accent-soft: var(--accent-soft);
+  --color-ok: var(--ok);
+  --color-ok-soft: var(--ok-soft);
+  --color-warn: var(--warn);
+  --color-warn-soft: var(--warn-soft);
+  --color-bad: var(--bad);
+  --color-bad-soft: var(--bad-soft);
+  --color-info: var(--info);
+  --color-info-soft: var(--info-soft);
+  --color-band: var(--band);
+  --color-band-strong: var(--band-strong);
+  --font-sans: var(--font-sans-face);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans-face), system-ui, sans-serif;
+  font-size: 17px;
+}
+
+:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+.prose-copy p + p {
+  margin-top: 0.85rem;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.rise {
+  animation: rise 0.3s ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rise {
+    animation: none;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+@media print {
+  header,
+  footer,
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: #fff;
+    color: #000;
+    font-size: 11pt;
+  }
+}
